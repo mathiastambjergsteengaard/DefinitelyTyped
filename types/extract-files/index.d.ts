@@ -15,6 +15,4 @@ export class ReactNativeFile {
     name: string;
 
     constructor(options: ReactNativeFileOptions);
-
-    static list(files: ReactNativeFileOptions[]): ReactNativeFile[];
 }
